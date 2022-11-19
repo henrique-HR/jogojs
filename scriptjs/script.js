@@ -15,6 +15,8 @@ const pontos =()=>{
 const pulo = (e)=>{ /**funçao pulo, inclui e exclui o obejto na função classse ( jump )responsavel por mover o eixo y a 180px acima  */
     if((e.key=='ArrowUp')||(e.key == 'w')){
         mario.classList.add('jump')
+
+        clearInterval(teste)
         setTimeout(()=>{
             mario.classList.remove('jump')
         },500 )
@@ -45,12 +47,17 @@ const loop = setInterval(()=>{
         pedra.style.left = '150px'
         mario.classList.add('morte')
     }
-    console.log (pedra.offsetLeft)
+    
 
     
 },1)
 
+const teste = setInterval(()=>{
+    
+    
+})
 
 
+    
 addEventListener('keydown',(e)=>pulo(e))
 botao.addEventListener('click',pulo1)
