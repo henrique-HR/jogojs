@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+@media screen and (max-width:672px) {
+        *{
+            margin: 0%;
+            padding: 0%;
+            font-family: cursive;
+        }
+        #botao{
+            position: absolute;
+            bottom: 20px;
+            right: 20px ;
+            background-color: rgba(26, 140, 192, 0.796);
+            border-radius: 50%;
+            font-size: 2em;
+            width: 100px;
+            height: 100px;
+            display: block;
+            
+        }.pedra{
+            animation:loop 1s  infinite linear;
+        }
+}
