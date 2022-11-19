@@ -30,7 +30,7 @@
 
 .personagem{
     position: absolute;
-    left:150px;
+    left:10%;
     bottom: 0;
     background-image: url('../imagens/imagen1.png');
     width: 74px;

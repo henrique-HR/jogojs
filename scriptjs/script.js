@@ -31,15 +31,21 @@ const pulo1 = ()=>{ /**funçao pulo, inclui e exclui o obejto na função classs
     
 }
 
- 
+ /**<= 305.0575256347656
+  * 
+  * > 297.2382507324219
+      && (mario.getBoundingClientRect().bottom > 450.81752014160156)
+ */
 const loop = setInterval(()=>{
    
     
-    if((pedra.getBoundingClientRect().left <=  354.0575256347656) && pedra.getBoundingClientRect().left > 299.2382507324219 && (mario.getBoundingClientRect().bottom > 450.81752014160156)){
+    if((pedra.getBoundingClientRect().left <= 301.0575256347656 )&&  (pedra.getBoundingClientRect().left >= 297.2382507324219) && (mario.getBoundingClientRect().bottom > 450.81752014160156 )){
+
       pedra.style.animation ='none'
         pedra.style.left = '150px'
         mario.classList.add('morte')
     }
+    console.log (pedra.offsetLeft)
 
     
 },1)
