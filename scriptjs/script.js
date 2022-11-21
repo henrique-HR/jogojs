@@ -34,7 +34,7 @@ addEventListener('keydown',(e)=>pulo(e))
 
 
 }else if(largura<=896){
-    const pulo = (e)=>{ 
+    const pulo = ()=>{ 
     /**funçao pulo, inclui e exclui o obejto na função classse ( jump )responsavel por mover o eixo y a 180px acima  */
     
         mario.classList.add('jump')
@@ -50,14 +50,13 @@ addEventListener('keydown',(e)=>pulo(e))
     }
     const loop = setInterval(()=>{ 
         let botoom = window.getComputedStyle(mario).bottom
-            console.log(botoom )
-         if((pedra.getBoundingClientRect().left <= 75 ) &&  (pedra.getBoundingClientRect().x > 70) && (botoom <= 10+'px')){
+         if((pedra.getBoundingClientRect().left <= 78 ) &&  (pedra.getBoundingClientRect().x > 70) && (botoom <= 10+'px')){
             
             
                 fim()
         }  
         
-    },0)
+    },10)
 
    
 
