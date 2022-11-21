@@ -9,7 +9,7 @@
     position: relative;
     border-bottom:20px dashed rgb(3, 71, 19);
     margin:0 auto;
-    width: 80%;
+    width: 100vw;
     height:600px;
     overflow: hidden;
 }#score{
@@ -37,11 +37,11 @@
     height: 106px;
     animation: correr 0.2s  linear infinite ;
 }.jump{
-    animation: jump 0.6s infinite ease;
+    animation: jump 0.5s infinite ease;
 }
 .morte{
 
-    animation: morte 1s linear forwards;
+    animation: morte 0.5s linear forwards;
 }
 .pedra{
     position: absolute;
