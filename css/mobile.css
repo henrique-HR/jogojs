@@ -27,7 +27,7 @@
         }.pedra{
             position: absolute;
            
-            animation:loop 1.3s  infinite linear;
+            animation:loop 2s  infinite linear;
         }
         
 }

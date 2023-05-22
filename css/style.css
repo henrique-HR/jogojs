@@ -47,7 +47,7 @@
     position: absolute;
     bottom:0;
     width: 80px;
-    animation:loop 3s  infinite linear;
+    animation:loop 2s  infinite linear;
 }.nuven{
     position: absolute;
     top: 60px;
@@ -107,6 +107,6 @@
     }
 }@keyframes morte {
     to{
-        transform:  translate(-400px , -50px ) rotate(-360deg) scale(0);
+        transform:  translate(-400px , -50px ) rotate(-180deg) scale(0.5);
     }
 }
