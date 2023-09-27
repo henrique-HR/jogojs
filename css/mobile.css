@@ -7,8 +7,8 @@
             font-family: cursive;
         }.game_board
         {
-            height: 100vh;
-            width: 100vw;
+            height: 90vh;
+            width: 90vw;
         }
         #botao{
             position: absolute;
